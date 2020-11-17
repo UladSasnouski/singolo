@@ -1,3 +1,5 @@
+/* Version 1.0 18.11.2020 Create by Ulad Sasnouski */
+
 @media (min-width: 768px) and (max-width: 1020px) {
     .sliderPhone1 {
         padding: 41px 54px 0px 84px;
@@ -95,6 +97,9 @@
         padding: 50px 85px 0px 0px;
         margin-left: -15px;
     }
+    .tabsItemHide:nth-child(n + 9) {
+        display: none;
+    }
 }
 @media (min-width: 1px) and (max-width: 300px) {
     .sliderPhone1 {
@@ -140,6 +145,9 @@
     }
     .headerContent {
         padding: 0;
+    }
+    .tabsItemHide:nth-child(n + 9) {
+        display: none;
     }
 }
 @media (max-width: 1920px){
@@ -223,6 +231,14 @@
         align-items: center;
         justify-content: center;
     }
+    .footerIcons {
+        margin: 0 auto;
+        padding: 10px 0px 10px 0px;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
 }
 @media (max-width: 540px){
     .tabsItems {
@@ -251,6 +267,14 @@
     }
     .portfolioTop {
         margin: 0px 30px 12px 30px;
+    }
+    .footerIcons {
+        margin: 0 auto;
+        padding: 10px 0px 10px 0px;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
     }
 }
 @media (max-width: 300px){
@@ -292,18 +316,16 @@
     }
     .footerIcons {
         margin: 0 auto;
+        padding: 10px 0px 10px 0px;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
     }
     .footer {
         margin: 0 auto;
     }
     .container {
         margin: 0 auto;
-    }
-    .footerIcons {
-        padding: 10px 0px 10px 0px;
-        width: 100%;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
     }
 }
